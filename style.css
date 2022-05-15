@@ -103,3 +103,41 @@ label:focus .bar {
     border: 3px solid #cfb129;
     background-color: #cfb129;
 }
+
+
+@media(max-width: 768px) {
+    html {
+        font-size: 14px
+    }
+    .slider-wrapper {
+        width: 80%;
+    }
+    .navigation {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .bar {
+        width: 0.2rem;
+        height: 0.2rem;
+        border: 2px solid #a3a0aa;
+    }
+    .labels {
+        width: 100%;
+        justify-content: center;
+    }
+    .descriptions {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+@media(max-width: 420px) {
+    html {
+        font-size: 12px;
+    }
+    .bar {
+        width: 0.15rem;
+        height: 0.15rem;
+        border: 1px solid #a3a0aa;
+    }
+}        
