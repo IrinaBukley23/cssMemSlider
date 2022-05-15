@@ -122,7 +122,7 @@ input[name="radio"] {
 
 @media(max-width: 767px) {
     html {
-        font-size: 14px
+        font-size: 14px;
     }
     .slider-wrapper {
         width: 80%;
