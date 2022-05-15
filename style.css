@@ -10,7 +10,7 @@ body {
 
 .slider-wrapper {
     position: relative;
-    top: 2rem;
+    top: 3rem;
     margin: 0 auto;
     max-width: 700px;
     max-height: 100vh;
@@ -54,7 +54,7 @@ body {
     width: 70%;
 }
 
-.descr-inner {
+.descr-block {
     display: flex;
     width: 400%;
     align-items: center;
@@ -103,6 +103,11 @@ label:focus .bar {
     border: 3px solid #cfb129;
     background-color: #cfb129;
 }
+
+input[name="radio"] {
+    display: none;
+}
+
 
 
 @media(max-width: 768px) {
