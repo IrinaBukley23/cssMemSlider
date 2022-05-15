@@ -71,7 +71,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #382d49;
     width: 30%;
 }
 
@@ -108,7 +107,53 @@ input[name="radio"] {
     display: none;
 }
 
+#first:checked ~ .controls .labels label .dot1 {
+    background-color: transparent;
+}
 
+#first:checked ~ .controls .labels label:hover .dot1 {
+    background-color: #ffffff;
+}
+
+#first:checked ~ .controls .labels label:active .dot1 {
+    background-color: #cfb129;
+}
+
+#second:checked ~ .controls .labels label .dot2 {
+    background-color: transparent;
+}
+
+#second:checked ~ .controls .labels label:hover .dot2 {
+    background-color: #ffffff;
+}
+
+#second:checked ~ .controls .labels label:active .dot2 {
+    background-color: #cfb129;
+}
+
+#third:checked ~ .controls .labels label .dot3 {
+    background-color: transparent;
+}
+
+#third:checked ~ .controls .labels label:hover .dot3 {
+    background-color: #ffffff;
+}
+
+#third:checked ~ .controls .labels label:active .dot3 {
+    background-color: #cfb129;
+}
+
+#fourth:checked ~ .controls .labels label .dot4 {
+    background-color: transparent;
+}
+
+#fourth:checked ~ .controls .labels label:hover .dot4 {
+    background-color: #ffffff;
+}
+
+#fourth:checked ~ .controls .labels label:active .dot4 {
+    background-color: #cfb129;
+}
 
 @media(max-width: 768px) {
     html {
