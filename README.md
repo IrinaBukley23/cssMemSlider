@@ -1,3 +1,3 @@
 # cssMemSlider
 
-https://IrinaBukey23.github.io/cssMemSlider/cssMemSlider/index.html
+https://irinabukley23.github.io/cssMemSlider/
